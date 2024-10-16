@@ -1,0 +1,133 @@
+/* 
+if you are gonna skid this please credit me! - frogiee1
+*/
+
+
+
+
+@font-face {
+  font-family: 'Clash Display Bold';
+  src: url('../Fonts/Clash%20Display/ClashDisplay-Bold.html');
+}
+
+@font-face {
+  font-family: 'Clash Display Semibold';
+  src: url('../Fonts/Clash%20Display/ClashDisplay-Semibold.html');
+}
+
+@font-face {
+  font-family: 'Clash Grotesk Medium';
+  src: url('../Fonts/Clash%20Grotesk/ClashGrotesk-Medium.html');
+}
+
+
+body {
+  font-family: "Clash Display Bold", Helvetica, Arial, sans-serif;
+  background-color: #0d0d0d;
+  color: #fff;
+  text-align: center;
+}
+
+#therealskibiditoilet{
+    position: absolute;
+    top: 22%;
+    left: 50%;
+    overflow: auto;
+    transform: translateX(-50%);
+    min-width: 350px;
+    width: 35%;
+    margin: 0 auto;
+    border: 3px solid #500082;
+  border-radius: 20px;  
+  backdrop-filter: blur(10px);
+    min-height: 250px;
+    padding: 20px;
+    z-index: 9997;
+    text-align: center;
+}
+
+h1 {
+  font-family: 'Clash Display Bold', sans-serif;
+  z-index: 9999;
+}
+
+h2 {
+  font-family: 'Clash Display Bold', sans-serif;
+}
+
+h3 {
+  font-family: 'Clash Display Semibold', sans-serif;
+}
+
+h4 {
+  font-family: 'Clash Display Semibold', sans-serif;
+}
+
+h5 {
+  font-family: 'Clash Display Semibold', sans-serif;
+}
+
+h6 {
+  font-family: 'Clash Display Semibold', sans-serif;
+}
+
+a {
+  color: #426fb8;
+  transition: ease 0.2s;
+  text-underline-offset: 10000px;
+}
+
+small {
+  color: #426fb8;
+  transition: ease 0.2s;
+  text-underline-offset: 10000px;
+  font-size: 0.6em;
+}
+
+a:hover {
+  color: #b8ffcd;
+  transition: ease 0.2s;
+}
+
+#big-profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  transition: ease-in-out 0.3s;
+}
+
+#big-profile-pic:hover {
+  scale: 1.2;
+  transition: ease-in-out 0.3s;
+  box-shadow: 0 0 20px #02c576, 0 0 30px #02c576;
+}
+
+.enter-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(20px);
+  z-index: 9999;
+  transition: all 0.3s ease;
+}
+
+.enter-button {
+  top: 50%;
+  left: 50%;
+  font-size: 24px;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.enter-button:hover {
+  text-shadow: 0 0 10px #fff;
+}
